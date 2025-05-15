@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skilled e-Learning Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .gradient-text-card {
+            background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        }
+        .btn-gradient-primary {
+            background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        }
+        .btn-gradient-primary:hover {
+            background: linear-gradient(180deg, #FF9A80 0%, #F75DC2 100%);
+        }
+        .btn-gradient-secondary {
+            background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+        }
+        .btn-gradient-secondary:hover {
+            background: linear-gradient(180deg, #6C73FF 0%, #F75DC2 100%);
+        }
+        header, main, footer {
+            position: relative;
+            z-index: 1;
+        }
+        html, body {
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-b from-white to-[#FFF0F5] min-h-screen text-[#13183F] relative">
+
+    <header class="py-6 md:py-8">
+        <div class="container mx-auto px-6 md:px-10 flex justify-between items-center">
+            <span class="text-3xl font-extrabold text-[#13183F]">skilled</span>
+            <a href="#" class="bg-[#13183F] hover:bg-[#666CA3] text-white font-bold py-3 px-8 rounded-full text-base md:text-lg transition-colors duration-300 z-10">
+                Get Started
+            </a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 md:px-10">
+        <section class="flex flex-col md:flex-row items-center justify-between pt-10 md:pt-16 lg:pt-20 pb-20 md:pb-32 lg:pb-40">
+            <div class="md:w-1/2 lg:w-2/5 text-center md:text-left mb-10 md:mb-0 md:pr-8">
+                <h2 class="text-4xl lg:text-[3.4rem] leading-[1.2] font-extrabold text-[#13183F] mb-6 md:mb-8">
+                    Maximize skill, minimize budget
+                </h2>
+                <p class="text-[#83869A] text-base sm:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed">
+                    Our modern courses empower you to enhance your professional skills without breaking the bank. Achieve your goals with our affordable and flexible e-learning platform.
+                </p>
+                <a href="#" class="btn-gradient-primary text-white font-bold py-4 px-10 rounded-full text-base md:text-lg inline-block transition-transform hover:scale-105 duration-300 z-10">
+                    Get Started
+                </a>
+            </div>
+
+            <div class="md:w-1/2 lg:w-[55%] relative mt-10 md:mt-0 flex justify-center md:justify-end">
+                <img src="https://placehold.co/400x450/E8EAFC/333333?text=Learning+Illustration" 
+                     alt="E-learning illustration of a person using a tablet for online courses" 
+                     class="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl rounded-lg shadow-2xl object-cover">
+                
+                <div class="hidden lg:flex flex-col justify-center absolute top-1/4 -left-10 transform -translate-y-1/2 bg-white p-4 rounded-xl shadow-2xl w-40 h-24">
+                    <p class="font-bold text-[#83869A] text-sm">Course hours</p>
+                    <p class="text-3xl font-extrabold text-[#13183F]">1,451<span class="text-sm align-top">hr</span></p>
+                </div>
+                <div class="hidden lg:flex flex-col justify-center absolute bottom-1/4 -right-12 transform translate-y-1/2 bg-white p-4 rounded-xl shadow-2xl w-40 h-24">
+                    <p class="font-bold text-[#83869A] text-sm">Members</p>
+                    <p class="text-3xl font-extrabold text-[#13183F]">29k</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-12 md:py-16 lg:py-24">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 md:gap-x-8 gap-y-14 md:gap-y-20">
+                <div class="gradient-text-card p-6 md:p-8 rounded-xl text-white flex items-center min-h-[260px] sm:min-h-[280px] md:min-h-[320px]">
+                    <h3 class="text-2xl md:text-3xl font-extrabold leading-tight">
+                        Check out our most popular courses!
+                    </h3>
+                </div>
+
+                <div class="bg-white pt-14 p-6 md:p-8 rounded-xl shadow-xl relative flex flex-col min-h-[260px] sm:min-h-[280px] md:min-h-[320px]">
+                    <img src="https://placehold.co/56x56/FF6F48/FFFFFF?text=A" alt="Animation Icon" class="w-14 h-14 absolute -top-7 left-6 md:left-8">
+                    <h4 class="text-xl md:text-2xl font-extrabold text-[#13183F] mb-3 md:mb-4">Animation</h4>
+                    <p class="text-[#83869A] text-base md:text-lg mb-6 flex-grow">
+                        Learn the latest animation techniques to create stunning motion graphics and visual effects.
+                    </p>
+                    <a href="#" class="text-[#F74780] hover:text-[#FFA7C3] font-bold text-lg transition-colors duration-300 self-start">Get Started</a>
+                </div>
+
+                <div class="bg-white pt-14 p-6 md:p-8 rounded-xl shadow-xl relative flex flex-col min-h-[260px] sm:min-h-[280px] md:min-h-[320px]">
+                    <img src="https://placehold.co/56x56/F02AA6/FFFFFF?text=D" alt="Design Icon" class="w-14 h-14 absolute -top-7 left-6 md:left-8">
+                    <h4 class="text-xl md:text-2xl font-extrabold text-[#13183F] mb-3 md:mb-4">Design</h4>
+                    <p class="text-[#83869A] text-base md:text-lg mb-6 flex-grow">
+                        Create beautiful, user-centered designs by mastering the fundamentals of design theory and tools.
+                    </p>
+                    <a href="#" class="text-[#F74780] hover:text-[#FFA7C3] font-bold text-lg transition-colors duration-300 self-start">Get Started</a>
+                </div>
+
+                <div class="bg-white pt-14 p-6 md:p-8 rounded-xl shadow-xl relative flex flex-col min-h-[260px] sm:min-h-[280px] md:min-h-[320px]">
+                    <img src="https://placehold.co/56x56/4851FF/FFFFFF?text=P" alt="Photography Icon" class="w-14 h-14 absolute -top-7 left-6 md:left-8">
+                    <h4 class="text-xl md:text-2xl font-extrabold text-[#13183F] mb-3 md:mb-4">Photography</h4>
+                    <p class="text-[#83869A] text-base md:text-lg mb-6 flex-grow">
+                        Explore critical fundamentals like exposure, composition, and focus to capture stunning photos.
+                    </p>
+                    <a href="#" class="text-[#F74780] hover:text-[#FFA7C3] font-bold text-lg transition-colors duration-300 self-start">Get Started</a>
+                </div>
+
+                <div class="bg-white pt-14 p-6 md:p-8 rounded-xl shadow-xl relative flex flex-col min-h-[260px] sm:min-h-[280px] md:min-h-[320px]">
+                    <img src="https://placehold.co/56x56/F74780/FFFFFF?text=C" alt="Crypto Icon" class="w-14 h-14 absolute -top-7 left-6 md:left-8">
+                    <h4 class="text-xl md:text-2xl font-extrabold text-[#13183F] mb-3 md:mb-4">Crypto</h4>
+                    <p class="text-[#83869A] text-base md:text-lg mb-6 flex-grow">
+                        All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course.
+                    </p>
+                    <a href="#" class="text-[#F74780] hover:text-[#FFA7C3] font-bold text-lg transition-colors duration-300 self-start">Get Started</a>
+                </div>
+
+                <div class="bg-white pt-14 p-6 md:p-8 rounded-xl shadow-xl relative flex flex-col min-h-[260px] sm:min-h-[280px] md:min-h-[320px]">
+                    <img src="https://placehold.co/56x56/2B8C4D/FFFFFF?text=B" alt="Business Icon" class="w-14 h-14 absolute -top-7 left-6 md:left-8">
+                    <h4 class="text-xl md:text-2xl font-extrabold text-[#13183F] mb-3 md:mb-4">Business</h4>
+                    <p class="text-[#83869A] text-base md:text-lg mb-6 flex-grow">
+                        A step-by-step playbook to help you start, scale, and sustain your business without outside investment.
+                    </p>
+                    <a href="#" class="text-[#F74780] hover:text-[#FFA7C3] font-bold text-lg transition-colors duration-300 self-start">Get Started</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-[#13183F] py-8 md:py-10 mt-16 md:mt-24">
+        <div class="container mx-auto px-6 md:px-10 flex justify-between items-center">
+            <span class="text-3xl font-extrabold text-white">skilled</span>
+            <a href="#" class="btn-gradient-secondary text-white font-bold py-3 px-8 rounded-full text-base md:text-lg transition-transform hover:scale-105 duration-300 z-10">
+                Get Started
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
